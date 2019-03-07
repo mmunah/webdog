@@ -1,0 +1,16 @@
+p{
+  margin: 20px;
+  max-width: 550px;
+  text-indent: 3rem;
+  font-size:2rem;
+  
+}
+
+p::first-letter{
+  font-family: cursive;
+  font-size: 3rem;
+  line-height: .5;
+}
+p::first-line{
+  color: red;
+}
