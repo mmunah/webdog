@@ -1,0 +1,11 @@
+h1{
+  font-family: serif;
+  font-size: 28px;
+  color: lawngreen;
+  text-decoration: line-through;
+  /* text-decoration-skip: edges; */
+}
+
+a{
+  text-decoration: none;
+}
