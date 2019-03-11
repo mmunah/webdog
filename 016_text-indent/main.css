@@ -3,7 +3,7 @@ p{
   max-width: 550px;
   text-indent: 3rem;
   font-size:2rem;
-  
+
 }
 
 p::first-letter{
@@ -14,3 +14,14 @@ p::first-letter{
 p::first-line{
   color: red;
 }
+
+a[href^="mailto"]::before {
+    content: "📧 ";
+}
+
+a[href^="tel"]::before {
+    content: "📞 ";
+}
+ a {
+   font-size: 1.5rem;
+ }
